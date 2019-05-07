@@ -1,0 +1,131 @@
+{
+ "accessors": [
+  {
+   "componentType": 5126,
+   "type": "VEC3",
+   "count": 24,
+   "max": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "min": [
+    -0.5,
+    -0.5,
+    -0.5
+   ],
+   "bufferView": 0
+  },
+  {
+   "componentType": 5126,
+   "type": "VEC3",
+   "count": 24,
+   "bufferView": 1
+  },
+  {
+   "componentType": 5126,
+   "type": "VEC2",
+   "count": 24,
+   "bufferView": 2
+  },
+  {
+   "componentType": 5121,
+   "type": "SCALAR",
+   "count": 36,
+   "bufferView": 3
+  }
+ ],
+ "asset": {
+  "version": "2.0",
+  "generator": "clara.io"
+ },
+ "bufferViews": [
+  {
+   "buffer": 0,
+   "byteOffset": 0,
+   "byteLength": 288,
+   "target": 34962,
+   "byteStride": 12
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 288,
+   "byteLength": 288,
+   "target": 34962,
+   "byteStride": 12
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 576,
+   "byteLength": 192,
+   "target": 34962,
+   "byteStride": 8
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 768,
+   "byteLength": 36,
+   "target": 34963
+  }
+ ],
+ "buffers": [
+  {
+   "byteLength": 804,
+   "uri": "data:application/octet-stream;base64,AAAAvwAAAL8AAAA/AAAAPwAAAL8AAAA/AAAAPwAAAD8AAAA/AAAAvwAAAD8AAAA/AAAAPwAAAL8AAAC/AAAAvwAAAL8AAAC/AAAAvwAAAD8AAAC/AAAAPwAAAD8AAAC/AAAAvwAAAD8AAAC/AAAAvwAAAD8AAAA/AAAAPwAAAD8AAAA/AAAAPwAAAD8AAAC/AAAAvwAAAL8AAAA/AAAAvwAAAL8AAAC/AAAAPwAAAL8AAAC/AAAAPwAAAL8AAAA/AAAAPwAAAL8AAAC/AAAAPwAAAD8AAAC/AAAAPwAAAD8AAAA/AAAAPwAAAL8AAAA/AAAAvwAAAL8AAAA/AAAAvwAAAD8AAAA/AAAAvwAAAD8AAAC/AAAAvwAAAL8AAAC/AAAAAAAAAAAAAIA/AAAAAAAAAAAAAIA/AAAAAAAAAAAAAIA/AAAAAAAAAAAAAIA/AAAAAAAAAAAAAIC/AAAAAAAAAAAAAIC/AAAAAAAAAAAAAIC/AAAAAAAAAAAAAIC/AAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgL8AAAAAAAAAAAAAgL8AAAAAAAAAAAAAgL8AAAAAAAAAAAAAgL8AAAAAAACAPwAAAAAAAAAAAACAPwAAAAAAAAAAAACAPwAAAAAAAAAAAACAPwAAAAAAAAAAAACAvwAAAAAAAAAAAACAvwAAAAAAAAAAAACAvwAAAAAAAAAAAACAvwAAAAAAAAAAAAAAAAAAgD8AAIA/AACAPwAAgD8AAAAAAAAAAAAAAAAAAAAAAACAPwAAgD8AAIA/AACAPwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgD8AAIA/AACAPwAAgD8AAAAAAAAAAAAAAAAAAAAAAACAPwAAgD8AAIA/AACAPwAAAAAAAIA/AACAPwAAgD8AAAAAAAAAAAAAAAAAAAAAAACAPwAAgD8AAIA/AACAPwAAAAAAAAAAAAAAAAAAAAAAAIA/AAECAAIDBAUGBAYHCAkKCAoLDA0ODA4PEBESEBITFBUWFBYX"
+  }
+ ],
+ "materials": [
+  {
+   "name": "group_0_8768998Mat",
+   "pbrMetallicRoughness": {
+    "baseColorFactor": [
+     0.8745098039215686,
+     0.08235294117647059,
+     0.08235294117647059,
+     1
+    ],
+    "roughnessFactor": 0.3015,
+    "metallicFactor": 0
+   }
+  }
+ ],
+ "meshes": [
+  {
+   "primitives": [
+    {
+     "indices": 3,
+     "material": 0,
+     "mode": 4,
+     "attributes": {
+      "POSITION": 0,
+      "NORMAL": 1,
+      "TEXCOORD_0": 2
+     }
+    }
+   ]
+  }
+ ],
+ "nodes": [
+  {
+   "name": "tinker_root",
+   "scale": [
+    0.009999999776482582,
+    0.009999999776482582,
+    0.009999999776482582
+   ]
+  },
+  {
+   "name": "Box",
+   "mesh": 0
+  }
+ ],
+ "scene": 0,
+ "scenes": [
+  {
+   "nodes": [
+    0,
+    1
+   ]
+  }
+ ]
+}
